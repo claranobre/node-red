@@ -157,7 +157,7 @@ RED.library = (function() {
             return ul;
         }
 
-        $('#node-input-name').css("width","60%").after(
+        $('#node-input-name').css("width","calc(100% - 51px)").after(
             '<div class="btn-group" style="margin-left: 5px;">'+
             '<a id="node-input-'+options.type+'-lookup" class="editor-button" data-toggle="dropdown"><i class="fa fa-book"></i> <i class="fa fa-caret-down"></i></a>'+
             '<ul class="dropdown-menu pull-right" role="menu">'+
